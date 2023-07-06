@@ -1,0 +1,159 @@
+.font-custom{
+    font-family: 'Lato','Noto Sans','Noto Sans JP','Noto Sans KR','Noto Sans SC','Noto Sans TC','ui-sans-serif','system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Arial','Noto Sans','sans-serif';
+    font-weight: 400;
+}
+.banner-cover{
+  /* The image used */
+  background-image: url("./images/banner.jpg");
+  background-size: cover;
+}
+.img-test{
+    mix-blend-mode: multiply;
+    filter: contrast(1.1);
+}
+
+.categrories{
+    background-color: rgb(247, 247, 247);
+}
+.img_new{
+  border-radius: 50%;
+  width: 70px;
+  margin-top: 10px;
+}
+
+.travel-collection{
+    background-image: url("./images/texture.svg");
+}
+
+.title-category{
+  font-size: 16px;
+  margin-bottom: 21px;
+  text-transform: uppercase;
+}
+
+.card-category{
+  color:gray;
+  width: 100px;
+  text-align: center;
+  font-size: smaller;
+  font-weight: 200;
+  cursor: pointer;
+}
+.card-category:hover>span{
+  color:rgb(232,123,53);
+}
+
+.new{
+  color:white;
+  background-color: #88b2ab;
+  border-radius: 3px;
+  display: block;
+  height: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dark:hover{
+  filter:brightness(0.9);
+}
+
+
+.card-focus{
+  cursor: pointer;
+  padding: 20px;
+  aspect-ratio: 16/10;
+  
+}
+
+#card_1{
+  background-image: url("https://bellroy-cms-images.imgix.net/travel-homepage-venture-v1.jpg?auto=format&fit=max&w=1000&q=60") ;
+  background-size: cover;
+}
+
+#card_2{
+  background-image: url("https://bellroy-cms-images.imgix.net/Homepage-SubBanner-Popular.jpg?auto=format&fit=max&w=1000&q=60");
+  background-size: cover;
+}
+
+#card_3{
+  background-image: url("https://bellroy-cms-images.imgix.net/lite_collection/Homepage-SubBanner-Outdoor-Collcetion.jpg?auto=format&fit=max&w=1000&q=60");
+  background-size: cover;
+}
+#card_4{
+  background-image: url("https://bellroy-cms-images.imgix.net/Homepage-SubBanner-Travel-Collection.jpg?auto=format&fit=max&w=1000&q=60");
+  background-size: cover;
+}
+#card_5{
+  background-image: url("https://bellroy-cms-images.imgix.net/travel-hoomepage-patty-mills.jpg?auto=format&fit=max&w=1000&q=60") ;
+  background-size: cover;
+}
+#card_6{
+  background-image: url("https://bellroy-cms-images.imgix.net/Homepage-SubBanner-Tech-Collcetion.jpg?auto=format&fit=max&w=1000&q=60");
+  background-size: cover;
+}
+
+.card-focus h2 {
+  color:white ;
+  font-size:31.5px;
+  font-family: 'Frank Ruhl Libre',"PT Serif","Noto Serif","Noto Serif JP","Noto Serif KR","Noto Serif SC","Noto Serif TC",'serif';
+  font-weight: 200;
+  letter-spacing: normal;
+}
+
+
+.card-focus span {
+  font-family: 'Frank Ruhl Libre',"PT Serif","Noto Serif","Noto Serif JP","Noto Serif KR","Noto Serif SC","Noto Serif TC",'serif';
+  color:white;
+  font-size:16px;
+}
+
+@media screen and (max-width: 1000px) { 
+  .card-focus { 
+    position: relative;
+    aspect-ratio: 5/4;
+    padding:0;
+  }
+
+  .card-focus div{
+  background-color: rgb(244, 244, 244);
+  width: 100%;
+  height: 70px;
+  position : absolute;
+  bottom:0;
+  padding : 5px
+
+}
+  .card-focus h2 {
+    color:rgb(40, 40, 40);
+    font-size: 21px;
+  }
+  .card-focus span{
+    color:rgb(71, 71, 71);
+    font-size: 13px;
+
+  }
+}
+
+.section_focus{
+  display: grid;
+  grid-template-columns : 1fr 1fr;
+
+}
+@media screen and (max-width: 800px) {
+  .section_focus{
+    grid-template-columns : 1fr;
+
+  }
+} 
+
+.text-before-email-input{
+    font-family: Frank Ruhl Libre,"PT Serif","Noto Serif","Noto Serif JP","Noto Serif KR","Noto Serif SC","Noto Serif TC",ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
